@@ -1,5 +1,5 @@
-package.loaded["config.options"] = nil
-require("config.options")
-package.loaded["config.theme"] = nil
-require("config.theme")
+require "config.options"
+require "config.theme"
+require "config.autocmds"
+require "config.maps"
 
