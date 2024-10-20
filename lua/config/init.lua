@@ -1,5 +1,6 @@
 require "config.options"
 require "config.theme"
-require "config.autocmds"
 require "config.maps"
+require "config.autocmds"
+require "config.usrcmds"
 

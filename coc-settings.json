@@ -1,0 +1,17 @@
+{
+  "coc.preferences.formatOnSaveTimeout": 200,
+  "languageserver": {
+    "lua": {
+      "module": "lua",
+      "filetypes": ["lua"],
+      "settings": {
+        "Lua": {
+          "diagnostics": {
+            "globals": ["vim"]
+          }
+        }
+      }
+    }
+  },
+  "coc.preferences.formatOnSave": true
+}

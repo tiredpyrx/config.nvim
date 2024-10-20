@@ -16,6 +16,7 @@ local options = {
     listchars = "space:_,tab:>'}",
     isfname = "#,$,%,+,,,-,.,/,48-57,=,@,_,~,{,}"
 }
+
 for k,v in pairs(options) do
     vim.o[string.lower(k)] = v
 end
